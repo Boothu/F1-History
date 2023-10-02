@@ -2,8 +2,14 @@
     font-family: 'Oswald', sans-serif;
 }
 
-header { 
+header {
     text-transform: uppercase;
-    font-weight : bolder;
-    color : rgb(241, 5, 5)
+    font-weight: bolder;
+    color: rgb(241, 5, 5);
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin: auto;
 }
