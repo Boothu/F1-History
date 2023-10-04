@@ -1,5 +1,7 @@
 # This is a basic webpage that I will update regularly to practice web programming.
 
-18/09/23 - Added HTML files.
+There are 3 different HTML files - one for the homepage and two individual team pages.
 
-25/09/23 - Added CSS Stylesheet and integrated with HTML files. Added short test to check integration worked.
+There is an external CSS stylesheet.
+
+There are 3 images in png format.
