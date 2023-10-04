@@ -13,3 +13,22 @@ header {
     display: block;
     margin: auto;
 }
+
+.centered-text {
+    text-align: center;
+}
+
+.left-image,
+.right-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-image {
+    left: 20%;
+}
+
+.right-image {
+    right: 20%;
+}
