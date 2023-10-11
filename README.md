@@ -4,4 +4,4 @@ There are 3 different HTML files - one for the homepage and two individual team 
 
 There is an external CSS stylesheet.
 
-There are 3 images in png format.
+There are 11 images in png format.
