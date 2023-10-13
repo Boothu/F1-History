@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="F1HistoryStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="F1HistoryJS.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <a href="F1HistoryHomepage.html">Home</a>
+
+    <p>Click button to turn red!</p>
+    <button id="changeTextButton">Click me!</button>
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").css("color", "red");
+            });
+        });
+    </script>
+</body>
+
+</html>
