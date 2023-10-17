@@ -1,0 +1,14 @@
+[
+    {
+        "firstname": "Lewis",
+        "surname": "Hamilton",
+        "age": 38,
+        "team": "Mercedes"
+    },
+    {
+        "firstname": "Max",
+        "surname": "Verstappen",
+        "age": 25,
+        "team": "Red Bull"
+    }
+]
