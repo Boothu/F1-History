@@ -1,5 +1,15 @@
-# This is a basic webpage that I will update regularly to practice web programming.
+# F1 History Webpage
 
+This is a basic webpage that I will update regularly to practice web programming.
+
+## Table of Contents
+- [Installation](#installation)
+- [Description](#description)
+
+## Installation
+Simply download files, and run html files, and website will display correctly. Ensure everything remains in the same directory.
+
+## Description
 There are 3 different HTML files - one for the homepage and two individual team pages.
 
 There is an external CSS stylesheet.
@@ -7,3 +17,5 @@ There is an external CSS stylesheet.
 There are 11 images in png format.
 
 There is a test file for testing features which don't fit with the websites theme.
+
+There is a JSON file including drivers details.
