@@ -26,6 +26,28 @@
             });
         });
     </script>
+
+    <div id="json-data"></div>
+
+    <script>
+        var jsonData = [
+            {
+                "firstname": "Lewis",
+                "surname": "Hamilton",
+                "age": 38,
+                "team": "Mercedes"
+            },
+            {
+                "firstname": "Max",
+                "surname": "Verstappen",
+                "age": 25,
+                "team": "Red Bull"
+            }
+        ];
+
+        document.getElementById("json-data").innerHTML = JSON.stringify(jsonData, null, 2);
+    </script>
+
 </body>
 
 </html>
