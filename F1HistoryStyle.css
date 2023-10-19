@@ -18,6 +18,10 @@ header {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .left-image,
 .right-image {
     position: absolute;
@@ -31,4 +35,8 @@ header {
 
 .right-image {
     right: 20%;
+}
+
+#json-data {
+    white-space: pre-wrap;
 }
