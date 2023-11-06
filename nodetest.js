@@ -5,3 +5,5 @@ http.createServer(function (req, res) { // creates HTTP server instance takes in
     res.end('Testing...'); // sends string 'Testing...' as response body. res.end() method is used to send the response to the client and indicate that the server has completed sending the response.
 }).listen(8080); // tells the server to listen on port 8080 a common choice for testing, but in this case the port doesnt really matter. When a client makes a request to the server's 
 // IP address on port 8080, the server will handle the request and send the specified response.
+
+// Now to use this, navigate to the directory this file is stored in with cmd using 'cd "C:\Users\..."', and then run command node nodetest.js, then type this visit this address on browser 'http://localhost:8080/'
