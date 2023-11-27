@@ -48,6 +48,17 @@
 
         document.getElementById("json-data").innerHTML = JSON.stringify(jsonData, null, 2);
     </script>
+
+    <br>
+    <div id="clock"></div>
+
+    <script>
+        function clock() {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toLocaleTimeString();
+        }
+        setInterval(clock, 1000);
+    </script>
     
 </body>
 
