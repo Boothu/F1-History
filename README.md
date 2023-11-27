@@ -14,10 +14,12 @@ There are 3 different HTML files - one for the homepage and two individual team 
 
 There is an external CSS stylesheet.
 
-There are 11 images in png format.
+There are 11 images in png format in the images folder.
 
 There is a test file for testing features which don't fit with the websites theme.
 
 There is JSON integrated into test including drivers details.
 
 Local Storage has been used so you don't have to type your name in multiple times.
+
+A typescript test has been added.
